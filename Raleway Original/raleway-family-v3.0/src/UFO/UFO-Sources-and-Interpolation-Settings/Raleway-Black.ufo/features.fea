@@ -1,0 +1,56 @@
+feature aalt {
+  feature smcp;
+	feature lnum;
+	feature onum;	  
+	feature salt;
+	feature liga;
+	feature dlig;
+	feature ss01;
+	feature ss02;
+} aalt;
+feature smcp {
+ # Small Capitals
+ # Latin
+    sub @smcp1 by @smcp2;
+ 
+} smcp;
+feature lnum {
+ # Lining Numerals
+ # Latin
+    sub @onum1 by @lnum1;
+} lnum;
+feature onum {
+ # Old Style Figures
+ # Latin
+    sub @lnum1 by @onum1;
+} onum;
+feature salt {
+ # Sylistic Alternative
+ # Latin
+    sub @aalt1 by @aalt2;
+} salt;
+feature liga {
+ # Standard Ligatures
+ # Latin
+    sub f i by f_i;
+    sub f l by f_l;
+    sub f f l by f_f_l;
+    sub f f i by f_f_i;
+    sub f f by f_f;
+ 
+} liga;
+feature dlig {
+ # Discretionary Ligatures
+ # Latin
+    sub c t by c_t;
+    sub s t by s_t;
+    
+} dlig;
+feature ss01 {
+ 
+ # Latin
+    sub @aalt1 by @aalt2;
+} ss01;
+feature ss02 {
+  sub [a a.alt]by a.alt2 ;
+} ss02;
