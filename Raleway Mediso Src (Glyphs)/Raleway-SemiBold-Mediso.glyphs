@@ -1,16 +1,5 @@
 {
-.appVersion = "1342";
-DisplayStrings = (
-"/t.alt",
-t,
-"/y.alt",
-y,
-"/tbar",
-"/G.alt",
-G,
-"Portt®",
-"®"
-);
+.appVersion = "3133";
 classes = (
 {
 automatic = 1;
@@ -20,18 +9,6 @@ name = Uppercase;
 );
 copyright = "SIL Open Font License";
 customParameters = (
-{
-name = description;
-value = "Raleway Mediso is an elegant sans-serif typeface family, originally called Raleway and designed by Matt McInerney as a single thin weight\012it was expanded into a 9 weight family by Pablo Impallari and Rodrigo Fuenzalida in 2012 and iKerned by Igino Marini. It is a display face and the download features both old style and lining numerals\012standard and discretionary ligatures\012a pretty complete set of diacritics\012as well as a stylistic alternate inspired by more geometric sans-serif typefaces than its neo-grotesque inspired default character set.\012\012In the 2014 was created a special, modified typeface called Raleway Prezi, modified by Viktor Suszter.\012\012In the middle of 2020 it was extended with a specific modification in a few letters specially created for Mediso. Modifications was done by Viktor Suszter.";
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
-},
 {
 name = glyphOrder;
 value = (
@@ -707,6 +684,31 @@ uni0490,
 uni0491,
 uni04B0,
 uni04B1
+);
+},
+{
+name = description;
+value = "Raleway Mediso is an elegant sans-serif typeface family, originally called Raleway and designed by Matt McInerney as a single thin weight\012it was expanded into a 9 weight family by Pablo Impallari and Rodrigo Fuenzalida in 2012 and iKerned by Igino Marini. It is a display face and the download features both old style and lining numerals\012standard and discretionary ligatures\012a pretty complete set of diacritics\012as well as a stylistic alternate inspired by more geometric sans-serif typefaces than its neo-grotesque inspired default character set.\012\012In the 2014 was created a special, modified typeface called Raleway Prezi, modified by Viktor Suszter.\012\012In the middle of 2020 it was extended with a specific modification in a few letters specially created for Mediso. Modifications was done by Viktor Suszter.";
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+},
+{
+Name = Width;
+Tag = wdth;
+}
 );
 }
 );
@@ -8033,15 +8035,17 @@ unicode = 00E0;
 },
 {
 glyphname = aacute;
-lastChange = "2020-08-11 13:24:00 +0000";
+lastChange = "2022-08-05 09:02:01 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 210, 0}";
 },
 {
+alignment = -1;
 name = a;
 }
 );
@@ -9135,14 +9139,16 @@ unicode = 0103;
 },
 {
 glyphname = Aogonek;
-lastChange = "2020-08-11 13:24:00 +0000";
+lastChange = "2022-08-05 09:02:01 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = A;
 },
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, 458, 0}";
 }
@@ -9189,14 +9195,16 @@ unicode = 02DB;
 },
 {
 glyphname = aogonek;
-lastChange = "2020-08-11 13:24:00 +0000";
+lastChange = "2022-08-05 09:02:01 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = a;
 },
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, 306, 0}";
 }
@@ -9762,14 +9770,16 @@ unicode = 0117;
 },
 {
 glyphname = Eogonek;
-lastChange = "2020-08-11 13:24:00 +0000";
+lastChange = "2022-08-05 09:02:01 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = E;
 },
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, 358, 0}";
 }
@@ -9784,14 +9794,16 @@ unicode = 0118;
 },
 {
 glyphname = eogonek;
-lastChange = "2020-08-11 13:24:00 +0000";
+lastChange = "2022-08-05 09:02:01 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = e;
 },
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, 138, 0}";
 }
@@ -10334,14 +10346,16 @@ unicode = 012D;
 },
 {
 glyphname = Iogonek;
-lastChange = "2020-08-11 13:24:00 +0000";
+lastChange = "2022-08-05 09:02:01 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = I;
 },
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, -17, 0}";
 }
@@ -10356,14 +10370,16 @@ unicode = 012E;
 },
 {
 glyphname = iogonek;
-lastChange = "2020-08-11 13:24:00 +0000";
+lastChange = "2022-08-05 09:02:01 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = i;
 },
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, -33, 0}";
 }
@@ -12298,14 +12314,16 @@ unicode = 0171;
 },
 {
 glyphname = Uogonek;
-lastChange = "2020-08-11 13:24:00 +0000";
+lastChange = "2022-08-05 09:02:01 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, 219, 0}";
 }
@@ -12320,14 +12338,16 @@ unicode = 0172;
 },
 {
 glyphname = uogonek;
-lastChange = "2020-08-11 13:24:00 +0000";
+lastChange = "2022-08-05 09:02:01 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = u;
 },
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, 325, 0}";
 }
@@ -12979,14 +12999,16 @@ unicode = 01CC;
 },
 {
 glyphname = Oogonek;
-lastChange = "2020-08-11 13:24:00 +0000";
+lastChange = "2022-08-05 09:02:01 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = O;
 },
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, 217, 0}";
 }
@@ -12999,14 +13021,16 @@ unicode = 01EA;
 },
 {
 glyphname = oogonek;
-lastChange = "2020-08-11 13:24:00 +0000";
+lastChange = "2022-08-05 09:02:01 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = o;
 },
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, 144, 0}";
 }
@@ -24612,14 +24636,16 @@ width = 591;
 },
 {
 glyphname = aogonek.sc;
-lastChange = "2020-08-11 13:24:00 +0000";
+lastChange = "2022-08-05 09:02:01 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = a.sc;
 },
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, 373, 0}";
 }
@@ -25175,14 +25201,16 @@ width = 532;
 },
 {
 glyphname = eogonek.sc;
-lastChange = "2020-08-11 13:24:00 +0000";
+lastChange = "2022-08-05 09:02:01 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = e.sc;
 },
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, 287, 0}";
 }
@@ -25652,14 +25680,16 @@ width = 247;
 },
 {
 glyphname = iogonek.sc;
-lastChange = "2020-08-11 13:24:00 +0000";
+lastChange = "2022-08-05 09:02:01 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = i.sc;
 },
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, -36, 0}";
 }
@@ -27089,14 +27119,16 @@ width = 653;
 },
 {
 glyphname = uogonek.sc;
-lastChange = "2020-08-11 13:24:00 +0000";
+lastChange = "2022-08-05 09:02:01 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = u.sc;
 },
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, 170, 0}";
 }

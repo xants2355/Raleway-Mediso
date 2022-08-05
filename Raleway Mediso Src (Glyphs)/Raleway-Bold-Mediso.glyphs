@@ -1,11 +1,5 @@
 {
-.appVersion = "1342";
-DisplayStrings = (
-t,
-"/y.alt",
-"/G.alt LOBALC/space Port®/space PORTAL/space",
-"®"
-);
+.appVersion = "3133";
 classes = (
 {
 automatic = 1;
@@ -15,18 +9,6 @@ name = Uppercase;
 );
 copyright = "SIL Open Font License";
 customParameters = (
-{
-name = description;
-value = "Raleway Mediso is an elegant sans-serif typeface family, originally called Raleway and designed by Matt McInerney as a single thin weight\012it was expanded into a 9 weight family by Pablo Impallari and Rodrigo Fuenzalida in 2012 and iKerned by Igino Marini. It is a display face and the download features both old style and lining numerals\012standard and discretionary ligatures\012a pretty complete set of diacritics\012as well as a stylistic alternate inspired by more geometric sans-serif typefaces than its neo-grotesque inspired default character set.\012\012In the 2014 was created a special, modified typeface called Raleway Prezi, modified by Viktor Suszter.\012\012In the middle of 2020 it was extended with a specific modification in a few letters specially created for Mediso. Modifications was done by Viktor Suszter.";
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
-},
 {
 name = glyphOrder;
 value = (
@@ -702,6 +684,31 @@ uni0490,
 uni0491,
 uni04B0,
 uni04B1
+);
+},
+{
+name = description;
+value = "Raleway Mediso is an elegant sans-serif typeface family, originally called Raleway and designed by Matt McInerney as a single thin weight\012it was expanded into a 9 weight family by Pablo Impallari and Rodrigo Fuenzalida in 2012 and iKerned by Igino Marini. It is a display face and the download features both old style and lining numerals\012standard and discretionary ligatures\012a pretty complete set of diacritics\012as well as a stylistic alternate inspired by more geometric sans-serif typefaces than its neo-grotesque inspired default character set.\012\012In the 2014 was created a special, modified typeface called Raleway Prezi, modified by Viktor Suszter.\012\012In the middle of 2020 it was extended with a specific modification in a few letters specially created for Mediso. Modifications was done by Viktor Suszter.";
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+},
+{
+Name = Width;
+Tag = wdth;
+}
 );
 }
 );
@@ -9367,14 +9374,16 @@ unicode = 0110;
 },
 {
 glyphname = dcroat;
-lastChange = "2020-08-11 13:23:46 +0000";
+lastChange = "2022-08-05 09:01:19 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = d;
 },
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, 277, -42}";
 }
@@ -12474,14 +12483,16 @@ unicode = 01EA;
 },
 {
 glyphname = oogonek;
-lastChange = "2020-08-11 13:23:46 +0000";
+lastChange = "2022-08-05 09:01:19 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = o;
 },
 {
+alignment = -1;
 name = ogonek;
 transform = "{1, 0, 0, 1, 132, 0}";
 }
@@ -25185,14 +25196,16 @@ rightKerningGroup = I.sc;
 },
 {
 glyphname = macute.sc;
-lastChange = "2020-08-11 13:23:46 +0000";
+lastChange = "2022-08-05 09:01:19 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = m.sc;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 313, 0}";
 }
@@ -25588,14 +25601,16 @@ rightKerningGroup = P.sc;
 },
 {
 glyphname = pacute.sc;
-lastChange = "2020-08-11 13:23:46 +0000";
+lastChange = "2022-08-05 09:01:19 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = p.sc;
 },
 {
+alignment = -1;
 name = acute;
 transform = "{1, 0, 0, 1, 174, 0}";
 }
