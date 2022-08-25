@@ -93928,7 +93928,7 @@ width = 600;
 },
 {
 glyphname = circumflexcomb.case;
-lastChange = "2022-08-05 09:02:34 +0000";
+lastChange = "2022-08-25 08:30:35 +0000";
 layers = (
 {
 components = (
@@ -93940,6 +93940,10 @@ transform = "{1, 0, 0, 1, 172, 189}";
 );
 layerId = "1FDD38BC-4CDE-4118-9AAB-E6BB464D5960";
 width = 676;
+},
+{
+layerId = "BB6A41DF-B2B0-47BB-BB25-47FFE7E0E8E0";
+width = 600;
 }
 );
 },
